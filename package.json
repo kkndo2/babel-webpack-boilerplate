@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/kkndo2/babel-webpack-boilerplate/issues"
   },
-  "homepage": "https://github.com/kkndo2/babel-webpack-boilerplate#readme"
+  "homepage": "https://github.com/kkndo2/babel-webpack-boilerplate#readme",
+  "devDependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  }
 }

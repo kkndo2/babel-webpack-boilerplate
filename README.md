@@ -33,6 +33,10 @@ npx webpack
 ```bash
 # css 로더
 npm install --save-dev style-loader css-loader
+
+# sass
+npm install sass-loader node-sass --save-dev
+npm install --save-dev mini-css-extract-plugin
 ```
 
 ## express 설치

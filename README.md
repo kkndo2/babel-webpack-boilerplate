@@ -16,6 +16,18 @@ npm install webpack --save-dev
 npm install webpack-cli --save-dev
 ```
 
+### lodash 설치
+
+```bash
+npm install --save lodash
+```
+
+## 웹팩 컴파일
+
+```bash
+npx webpack
+```
+
 ## express 설치
 
 ```bash
@@ -33,3 +45,4 @@ node server.js
 ```bash
 npm install ejs --save
 ```
+

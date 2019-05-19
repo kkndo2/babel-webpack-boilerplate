@@ -5,10 +5,14 @@ import _ from 'lodash';
 const comp = () => {
     const element = document.createElement('div');
     element.innerHTML = _.join(['Click', 'Here !'], ' ');
+    element.className = 'comp';
 
-    document.addEventListener("click", function(event) {
-        alert('It\'s working !')
-    });
+    document.addEventListener("click",function(event) {
+        if (event.target.matches('.comp')) {
+            alert('It\'s working !');
+        }   
+        
+    }, false);
 
     return element;
 };
@@ -17,3 +21,6 @@ const comp = () => {
 document.addEventListener("DOMContentLoaded", function(event) {
     document.body.appendChild(comp());
 });
+
+// css 임포트
+import './import.css';

@@ -22,10 +22,17 @@ npm install webpack-cli --save-dev
 npm install --save lodash
 ```
 
-## 웹팩 컴파일
+## 웹팩 컴파일 명령어
 
 ```bash
 npx webpack
+```
+
+## 웹팩 로더 설치
+
+```bash
+# css 로더
+npm install --save-dev style-loader css-loader
 ```
 
 ## express 설치

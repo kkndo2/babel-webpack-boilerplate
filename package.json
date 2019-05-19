@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/kkndo2/babel-webpack-boilerplate#readme",
   "devDependencies": {
+    "css-loader": "^2.1.1",
+    "style-loader": "^0.23.1",
     "webpack": "^4.30.0",
     "webpack-cli": "^3.3.1"
   },

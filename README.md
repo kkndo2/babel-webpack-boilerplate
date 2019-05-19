@@ -15,3 +15,21 @@ npm init -y
 npm install webpack --save-dev
 npm install webpack-cli --save-dev
 ```
+
+## express 설치
+
+```bash
+npm install express --save
+```
+
+### express 서버 구동
+
+```bash
+node server.js
+```
+
+### ejs 설치
+
+```bash
+npm install ejs --save
+```

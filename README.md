@@ -56,4 +56,3 @@ node server.js
 ```bash
 npm install ejs --save
 ```
-
